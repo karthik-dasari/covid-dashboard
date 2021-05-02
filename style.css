@@ -1,0 +1,47 @@
+*{
+    font-family: Ubuntu;
+}
+
+body{
+    background-color:black !important;
+    margin: 0 !important; 
+    padding: 0 !important;
+}
+
+html{
+    width: 98vw !important;
+}
+
+.mapboxgl-popup-close-button,.mapboxgl-popup-tip,.mapboxgl-ctrl{
+    display: none !important;
+  }
+  
+  .mapboxgl-popup-content h1,h3{
+      margin: 0 !important;
+      text-align: center !important;
+  }
+  .mapboxgl-popup-content{
+      padding: 5px !important;
+  }
+#map { position: absolute; top: 0; bottom: 0; width: 98.5vw; height: 60vh; border: 10px solid #ffffff; border-radius:10px;}
+
+.mainpage{
+    padding-top: calc(100vh - 40vh);
+    color: black;
+}
+
+.card-header-danger{
+    background-color:red !important;
+}
+
+.card-header-success{
+    background-color:green !important;
+}
+
+.card-header-warning{
+    background-color:orange !important;
+}
+
+.mypadding{
+    height:30px !important;
+}
