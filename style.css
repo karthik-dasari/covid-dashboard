@@ -42,6 +42,6 @@ html{
     background-color:orange !important;
 }
 
-.mypadding{
-    height:30px !important;
+.card{
+    margin-bottom: 30px;
 }

@@ -135,7 +135,7 @@ xhr2.onload = function(){
                         statedata[i].districtData[j]["confirmed"] + '</td></tr>';
                 }
                 temp +=
-                    '</tbody></table></div><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div></div></div>';
+                    '</tbody></table></div><button type="button" class="btn" data-dismiss="modal">Close</button></div></div></div>';
     }
     $("#card-modal").append(temp);
     
